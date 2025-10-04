@@ -5,7 +5,9 @@ export default function Index(){
 
     return(
         <div>
-            <section className="hero"></section>
+            <section className="hero">
+                <h3>Hello world</h3>
+            </section>
             <section className="aboutUs"></section>
             <section className="ourService"></section>
             <section className="youtubePR"></section>
