@@ -1,10 +1,13 @@
+// Built-in library.
 import React, { useState, useEffect } from "react";
+
+// Pages & components.
 import styles from '../index_page/index_page.module.css';
 
 export default function Index(){
 
     return(
-        <div>
+        <div className="heroContainer">
             <section className="hero">
                 <h3>Hello world</h3>
             </section>

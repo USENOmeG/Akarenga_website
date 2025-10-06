@@ -1,9 +1,11 @@
+// Built-in library.
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import BASE_URL from '../apps/url_instance.js';
+import BASE_URL from "../apps/url_instance.js";
 
-// Page & components import
-import Index from '../pages/index_page/index_page.jsx';
+// Pages & components.
+import Index from "../pages/index_page/index_page.jsx";
+import NavBar from "../components/navbar/navbar";
 
 // API request URL instances.
 const API_REQUEST_URL = BASE_URL;
@@ -27,6 +29,7 @@ const IndexPage = () => {
     return(
         <div className="home">
             {/* Navbar section */}
+            <NavBar></NavBar>
 
             {/* Hero section */}
             <Index></Index>
