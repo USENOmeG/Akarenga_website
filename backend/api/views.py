@@ -16,5 +16,6 @@ from rest_framework.permissions import AllowAny, IsAuthenticated, IsAdminUser
 from rest_framework.response import Response
 
 
+@api_view(['GET'])
 def index_page(request):
-    return Response
+    return Response()
