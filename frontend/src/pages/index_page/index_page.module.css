@@ -1,0 +1,655 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
+body {
+    background-color: #F0EEE6;
+}
+
+.indexContainer {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    width: 100%;
+    border-radius: 0;
+}
+
+/* Hero section starts */
+.heroContainer,
+.aboutUs,
+.ourService,
+.youTubePR,
+.solutions,
+.questionAndAnswer,
+.contactUs {
+    padding-inline: 5%;
+}
+
+.heroSectionTop {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heroTopLeft,
+.heroTopRight {
+    max-width: 50%;
+}
+
+.heroLeftHeader h3 {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: left;
+    color: #222121;
+}
+
+.heroHeaderSpan {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.heroLeftHeader p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: #222121;
+}
+
+.heroLeftContactButtons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.heroContactButtonFirst {
+    width: 100%;
+    background-color: #222121;
+    padding: 10px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.heroContactButtonFirst a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.heroContactButtonFirst:hover,
+.heroContactButtonSecond:hover {
+    background-color: rgb(210, 210, 210);
+}
+
+.heroContactButtonSecond {
+    width: 100%;
+    background-color: transparent;
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: solid 1px #222121;
+    cursor: pointer;
+    text-align: center;
+}
+
+.heroContactButtonSecond a {
+    text-decoration: none;
+    color: #222121;
+    font-weight: bold;
+}
+
+.heroTopRight img {
+    max-width: 512px;
+}
+
+.heroBottom {
+    margin-top: 100px;
+    background-color: #FF3F3F;
+    border-radius: 20px;
+    padding: 40px 80px;
+}
+
+.heroBottomRep {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heroRepContent h3 {
+    margin: 0;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.heroRepContent p {
+    margin: 0;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Hero section ends */
+
+/* About us section starts */
+.aboutUsContainer {
+    margin-top: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+    border-radius: 20px;
+}
+
+.aboutUsLeft,
+.aboutUsRight {
+    max-width: 50%;
+}
+
+.aboutUsTopic p span::before {
+    content: "";
+    display: inline-block;
+    width: 45px;
+    height: 2px;
+    background-color: #FFC107;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.aboutUsTopic p {
+    color: #FFC107;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.aboutUsHeader h3 {
+    color: #222121;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.aboutUsHeader p {
+    color: #222121;
+    font-size: 16px;
+}
+
+.aboutUsContactButton {
+    margin-top: 50px;
+    max-width: 256px;
+    background-color: transparent;
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: solid 1px #222121;
+    cursor: pointer;
+    text-align: center;
+    cursor: pointer;
+}
+
+.aboutUsContactButton a {
+    text-decoration: none;
+    color: #222121;
+    font-weight: bold;
+}
+
+.aboutUsContactButton:hover {
+    background-color: rgb(210, 210, 210);
+}
+
+.aboutUsRight {
+    align-self: center;
+}
+
+.aboutUsRight img {
+    max-width: 512px;
+    border-radius: 16px;
+}
+/* About us section ends */
+
+/* Our service section starts */
+.ourServiceContainer {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ourServiceLeft,
+.ourServiceRight {
+    max-width: 50%;
+}
+
+.ourServiceLeft {
+    padding: 40px 40px 40px 0px;
+    display: flex;
+    gap: 20px;
+}
+
+.ourServiceLeft ul {
+    padding: 0;
+    display: block;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ourServiceLeft ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    background-color: white;
+    border-radius: 10px;
+    width: 306px;
+    height: 359px;
+    padding: 40px 20px;
+}
+
+.ourServiceCardHeader {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ourServiceCardHeader img {
+    width: 48px;
+}
+
+.ourServiceCardHeader h3 {
+    color: #222121;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.ourServiceCardParagraph p {
+    font-size: 16px;
+}
+
+
+/* One explicit card's styling */
+.ourServiceLeft ul li:nth-child(1) {
+    background-color: #222121;
+}
+
+.ourServiceLeft ul li:nth-child(2) {
+    margin-top: 20px;
+}
+
+.ourServiceLeft ul li:nth-child(1) h3 {
+    color: white;
+}
+
+.ourServiceLeft ul li:nth-child(1) p {
+    color: white;
+}
+
+.ourServiceLeft ul li:nth-child(1) .ourServiceCardButton {
+    background-color: white;
+}
+
+.ourServiceLeft ul li:nth-child(1) .ourServiceCardButton:hover {
+    background-color: rgb(210, 210, 210);
+}
+
+.ourServiceLeft ul li:nth-child(1) .ourServiceCardButton a {
+    color: #222121;
+}
+
+.ourServiceCardButton {
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #222121;
+}
+
+.ourServiceCardButton:hover {
+    background-color: rgb(210, 210, 210);
+}
+
+.ourServiceCardButton a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+.ourServiceRight {
+    align-self: center;
+    padding: 40px 80px 40px 40px;
+}
+
+.ourServiceTopic p span::before {
+    content: "";
+    display: inline-block;
+    width: 45px;
+    height: 2px;
+    background-color: #FFC107;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.ourServiceTopic p {
+    color: #FFC107;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ourServiceHeader h3 {
+    color: #222121;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.ourServiceHeader p {
+    color: #222121;
+    font-size: 16px;
+}
+
+.ourServiceContactButton {
+    margin-top: 50px;
+    max-width: 256px;
+    background-color: #222121;
+    padding: 10px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    cursor: pointer;
+}
+
+.ourServiceContactButton:hover {
+    background-color: rgb(210, 210, 210);
+}
+
+.ourServiceContactButton a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+/* Our service section ends */
+
+/* YouTube Promotion section starts */
+.youTubePRContainer {
+    border-block: solid 1px #222121;
+    padding-block: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.embedYouTubeVideo,
+.youTubePRComment {
+    max-width: 50%;
+}
+
+.embedYouTubeVideo {
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.youTubePRComment {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 80px 40px 40px;
+}
+
+.youTubePRComment h3 {
+    margin: 0;
+    color: #222121;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.youTubePRComment p {
+    margin: 0;
+    color: #28A745;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.quoteFirst {
+    text-align: left;
+}
+
+.quoteSecond {
+    text-align: right;
+}
+/* YouTube Promotion section ends */
+
+/* Solution cards section starts */
+.solutionsContainer {
+    padding-block: 100px;
+    border-bottom: solid #222121 1px;
+}
+
+.solutionsHeader p {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #222121;
+}
+
+.solutionsContainer ul {
+    margin-top: 100px;
+    display: flex;
+}
+
+.solutionsContainer ul li {
+    list-style: none;
+    width: 335px;
+    height: 360px;
+    flex: 1;
+    background-size: cover;
+    padding: 40px 30px;
+    cursor: pointer;
+}
+
+.solutionsContainer ul li:nth-child(1) {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.solutionsContainer ul li:nth-child(4) {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.solutionsContainer ul li a {
+    text-decoration: none;
+}
+
+.solutionsContainer ul li:nth-child(1) a,
+.solutionsContainer ul li:nth-child(4) a {
+    color: white;
+}
+
+.solutionsContainer ul li:nth-child(2) a,
+.solutionsContainer ul li:nth-child(3) a {
+    color: #222121;
+}
+
+.solutionsContainer ul li a h3 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.solutionsContainer ul li:nth-child(1) h3,
+.solutionsContainer ul li:nth-child(3) h3 {
+    margin-top: 50px;
+}
+
+.solutionsContainer ul li:nth-child(2) h3,
+.solutionsContainer ul li:nth-child(4) h3 {
+    margin-top: 200px;
+}
+/* Solution cards section ends */
+
+/* Q&A section starts */
+.questionAndAnswerContainer {
+    padding-block: 100px;
+    border-bottom: solid #222121 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.questionAndAnswerLeft, 
+.questionAndAnswerRight {
+    max-width: 50%;
+}
+
+.questionAndAnswerLeft {
+    align-self: center;
+}
+
+.questionAndAnswerLeftHeader h3 {
+    font-size: 40px;
+}
+
+.questionAndAnswerContactButton {
+    margin-top: 50px;
+    max-width: 256px;
+    background-color: #222121;
+    padding: 10px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    cursor: pointer;
+}
+
+.questionAndAnswerContactButton:hover {
+    background-color: rgb(210, 210, 210);
+}
+
+.questionAndAnswerContactButton a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.questionAndAnswerRight {
+    padding: 40px;
+}
+
+.questionAndAnswerRight ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.questionAndAnswerRight ul li {
+    border-radius: 10px;
+    padding: 10px 15px;
+    list-style: none;
+    width: 600px;
+    color: #222121;
+    font-weight: bold;
+    background-color: white;
+    flex: 1;
+}
+
+.questionAndAnswerCardContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plusMinusButton {
+    background-color: #FF3F3F;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.plusMinus {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    align-self: center;
+    z-index: 1;
+}
+
+.plusMinus::before,
+.plusMinus::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    transition: transform 0.35s, opacity 0.35s;
+    transform: translateY(-50%);
+}
+
+.plusMinus::before {
+    transform: translateY(-50%) rotate(0deg);
+}
+
+.plusMinus::after {
+    transform: translateY(-50%) rotate(90deg);
+}
+
+.plusMinus.active::before {
+    transform: translateY(-50%) rotate(0deg); 
+}
+
+.plusMinus.active::after {
+    transform: translateY(-50%) rotate(90deg);
+    opacity: 0; 
+}
+
+.questionAndAnswerCardHiddenContent {
+    font-weight: normal;
+}
+/* Q&A section ends */
+
+/* Contact us section starts */
+.contactUsContainer {
+    padding-block: 100px;
+}
+
+.contactUsHeader h3 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contactUsButtons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.contactUsButtonFirst {
+    width: 100%;
+    background-color: #222121;
+    padding: 10px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.contactUsButtonFirst a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.contactUsButtonFirst:hover,
+.contactUsButtonSecond:hover {
+    background-color: rgb(210, 210, 210);
+}
+
+.contactUsButtonSecond {
+    width: 100%;
+    background-color: transparent;
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: solid 1px #222121;
+    cursor: pointer;
+    text-align: center;
+}
+
+.contactUsButtonSecond a {
+    text-decoration: none;
+    color: #222121;
+    font-weight: bold;
+}
+/* Contact us section ends */

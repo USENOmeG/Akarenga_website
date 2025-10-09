@@ -5,7 +5,8 @@ import BASE_URL from "../apps/url_instance.js";
 
 // Pages & components.
 import Index from "../pages/index_page/index_page.jsx";
-import NavBar from "../components/navbar/navbar";
+import NavBar from "../components/navbar/navbar.jsx";
+import Footer from "../components/footer/footer.jsx";
 
 // API request URL instances.
 const API_REQUEST_URL = BASE_URL;
@@ -35,6 +36,7 @@ const IndexPage = () => {
             <Index></Index>
 
             {/* Footer section */}
+            <Footer></Footer>
         </div>
     );
 };
