@@ -107,7 +107,7 @@ body {
 
 .heroBottomRep {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .heroRepContent h3 {
@@ -126,6 +126,13 @@ body {
     font-weight: bold;
 }
 
+.heroRepSeparator::before {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 100%;
+    background-color: white;
+}
 /* Hero section ends */
 
 /* About us section starts */

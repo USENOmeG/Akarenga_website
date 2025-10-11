@@ -21,6 +21,7 @@ export default function Index() {
     // Href for repetitive routes.
     const contactHref = "";
     const trackRecordHref = "";
+    const aboutUsHref = "/about_us";
 
     // Contents displayed in Q&A section.
     const questionAndAnswerElements = [
@@ -92,7 +93,7 @@ export default function Index() {
                                 </div>
                             </div>
 
-                            <span className="heroRepSeparator" />
+                            <span className={styles.heroRepSeparator} />
 
                             <div className="heroRepCard">
                                 <div className={styles.heroRepContent}>
@@ -101,7 +102,7 @@ export default function Index() {
                                 </div>
                             </div>
 
-                            <span className="heroRepSeparator" />
+                            <span className={styles.heroRepSeparator} />
 
                             <div className="heroRepCard">
                                 <div className={styles.heroRepContent}>
@@ -296,7 +297,7 @@ export default function Index() {
                         </li>
 
                         <li className="solutionCard" style={{ backgroundImage: `url(${backgroundImageSolution2})`}}>
-                            <a href="">
+                            <a href={aboutUsHref}>
                                 <h3>当事務所について詳しく知る</h3>
                                 <p>当事務所ではトレント事件の対応のみならず、様々な問題解決に取り組んでいます</p>
                             </a>
